@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+    /* Carro */
+    printf("  \xDC\xDC\xDC\xDC\xDC\xDC\xDC  \n");
+    printf("\xDC\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDC\xDC\n");
+    printf(" O      O \n\n");
+
+    /* Caminhonete */
+    printf("  \xDC\xDC  \xDC\xDC\xDC\xDC\xDC\xDC\xDC\xDC\n");
+    printf("\xDC\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\n");
+    printf(" O      OO \n");
+
+    return 0;
+}
